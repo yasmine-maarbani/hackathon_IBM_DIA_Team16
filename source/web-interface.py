@@ -28,8 +28,8 @@ DEFAULT_DATA_PATHS = [
 ]
 
 # Models inside repo
-DEFAULT_MODEL_REQ = str(REPO_ROOT / "artifacts" / "models" / "linear_model_energy_per_request_light.joblib")  # kWh/request
-DEFAULT_MODEL_TOK = str(REPO_ROOT / "artifacts" / "models" / "linear_model_energy_per_token_light.joblib")    # kWh/token
+DEFAULT_MODEL_REQ = str(REPO_ROOT / "artifacts" / "models" / "model_energy_per_request_linreg.joblib")  # kWh/request
+DEFAULT_MODEL_TOK = str(REPO_ROOT / "artifacts" / "models" / "model_energy_per_token_linreg.joblib")    # kWh/token
 
 CARBON_PRESETS = {
     "Global avg (~0.475)": 0.475,
